@@ -1,0 +1,10 @@
+//
+//  EmptyNetwork.swift
+//  top-songsTests
+//
+//  Created by Danilo Camarotto on 13/09/21.
+//
+
+@testable import top_songs
+
+class EmptyNetwork: Networking { }
