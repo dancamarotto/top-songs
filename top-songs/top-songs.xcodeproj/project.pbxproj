@@ -21,6 +21,7 @@
 		8102E64626EF9D1F0028CE6F /* AlbumTracksData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8102E64526EF9D1F0028CE6F /* AlbumTracksData.swift */; };
 		8102E64826EF9D300028CE6F /* AlbumTrackData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8102E64726EF9D300028CE6F /* AlbumTrackData.swift */; };
 		8102E64A26EFACA60028CE6F /* Int+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8102E64926EFACA60028CE6F /* Int+Extension.swift */; };
+		8102E64C26EFAD840028CE6F /* StoreKitHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8102E64B26EFAD840028CE6F /* StoreKitHelper.swift */; };
 		8141523926EE6C3B00317535 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 8141523826EE6C3B00317535 /* RxSwift */; };
 		8141523C26EE6C4E00317535 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 8141523B26EE6C4E00317535 /* Kingfisher */; };
 		8141523F26EE6CF800317535 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 8141523E26EE6CF800317535 /* Alamofire */; };
@@ -76,6 +77,7 @@
 		8102E64526EF9D1F0028CE6F /* AlbumTracksData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumTracksData.swift; sourceTree = "<group>"; };
 		8102E64726EF9D300028CE6F /* AlbumTrackData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumTrackData.swift; sourceTree = "<group>"; };
 		8102E64926EFACA60028CE6F /* Int+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+Extension.swift"; sourceTree = "<group>"; };
+		8102E64B26EFAD840028CE6F /* StoreKitHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreKitHelper.swift; sourceTree = "<group>"; };
 		8141524026EE6D1700317535 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
 		8141524626EE6D9400317535 /* UIViewController+Loading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Loading.swift"; sourceTree = "<group>"; };
 		8141524A26EE997500317535 /* RequestParamBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestParamBuilder.swift; sourceTree = "<group>"; };
@@ -276,6 +278,7 @@
 			children = (
 				814ABF8526EE5BD600E5586F /* AppDelegate.swift */,
 				814ABFB726EE5C5C00E5586F /* AppCoordinator.swift */,
+				8102E64B26EFAD840028CE6F /* StoreKitHelper.swift */,
 			);
 			path = Application;
 			sourceTree = "<group>";
@@ -511,6 +514,7 @@
 				814ABFBB26EE5C7E00E5586F /* Coordinator.swift in Sources */,
 				814ABFD426EE650400E5586F /* TopAlbumsService.swift in Sources */,
 				814ABFBF26EE5CA800E5586F /* ViewCoded.swift in Sources */,
+				8102E64C26EFAD840028CE6F /* StoreKitHelper.swift in Sources */,
 				8141524E26EE9F1600317535 /* TopAlbumsData.swift in Sources */,
 				814ABFCC26EE603A00E5586F /* TopAlbumsViewModel.swift in Sources */,
 				814ABFC626EE5F8B00E5586F /* TopAlbumsViewController.swift in Sources */,

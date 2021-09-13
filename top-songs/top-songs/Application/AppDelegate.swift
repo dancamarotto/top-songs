@@ -20,6 +20,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         coordinator = AppCoordinator(window: window)
         coordinator?.start()
         
+        StoreKitHelper.incrementNumberOfTimesLaunched()
+        StoreKitHelper.displayStoreKit()
+        
         return true
     }
     
