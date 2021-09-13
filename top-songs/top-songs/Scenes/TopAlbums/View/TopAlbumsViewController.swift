@@ -8,7 +8,9 @@
 import UIKit
 
 protocol TopAlbumsViewControllerDelegate: AnyObject {
-    
+    func updateTopAlbumsList()
+    func startLoading()
+    func stopLoading()
 }
 
 class TopAlbumsViewController: UIViewController {
@@ -22,7 +24,7 @@ class TopAlbumsViewController: UIViewController {
     init(viewModel: TopAlbumsViewModelProtocol)  {
         self.viewModel = viewModel
         super.init(nibName: nil, bundle: nil)
-        title = "Top Hip-Hop ALbums"
+        title = "Top Hip-Hop Albums"
     }
     
     required init?(coder: NSCoder) {
@@ -41,12 +43,18 @@ class TopAlbumsViewController: UIViewController {
 }
 
 extension TopAlbumsViewController: TopAlbumsViewControllerDelegate {
-    
+    func updateTopAlbumsList() {
+        topAlbumsView.updateTopAlbumsList()
+    }
 }
 
 extension TopAlbumsViewController: TopAlbumsViewDelegate {
+    func getCollectionSize() -> Int {
+        viewModel.topAlbumsListSize
+    }
+    
     func getCellData(forIndex index: Int) -> TopAlbumsCellData? {
-        // TODO: - Not implemented yet
+        viewModel.getCellData(forIndex: index)
     }
     
     func didSelectAlbum(atIndex index: Int) {

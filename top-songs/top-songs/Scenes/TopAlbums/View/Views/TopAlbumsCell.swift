@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import Kingfisher
 
 class TopAlbumsCell: UICollectionViewCell {
     
@@ -53,8 +54,7 @@ extension TopAlbumsCell: ViewCoded {
     }
     
     func setupViews() {
-        // TODO: - Include KingFisher
-//        imageView.kf.setImage(with: data?.imageUrl)
+        imageView.kf.setImage(with: data?.imageUrl)
         label.text = data?.title
     }
 }

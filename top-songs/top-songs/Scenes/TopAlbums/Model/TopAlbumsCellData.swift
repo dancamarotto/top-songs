@@ -8,6 +8,7 @@
 import Foundation
 
 struct TopAlbumsCellData {
-    let imageUrl: URL
+    let id: String
+    let imageUrl: URL?
     let title: String
 }

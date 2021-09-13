@@ -8,6 +8,7 @@
 import UIKit
 
 protocol TopAlbumsViewDelegate: AnyObject {
+    func getCollectionSize() -> Int
     func getCellData(forIndex index: Int) -> TopAlbumsCellData?
     func didSelectAlbum(atIndex index: Int)
 }
@@ -15,8 +16,6 @@ protocol TopAlbumsViewDelegate: AnyObject {
 class TopAlbumsView: UIView {
     
     weak var delegate: TopAlbumsViewDelegate?
-    
-    private var collectionViewSize = 0
     
     lazy var collectionView: UICollectionView = {
         let layout = UICollectionViewFlowLayout()
@@ -38,11 +37,15 @@ class TopAlbumsView: UIView {
         setupViewCode()
     }
     
+    func updateTopAlbumsList() {
+        collectionView.reloadData()
+    }
+    
 }
 
 extension TopAlbumsView: UICollectionViewDataSource {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        collectionViewSize
+        delegate?.getCollectionSize() ?? 0
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {

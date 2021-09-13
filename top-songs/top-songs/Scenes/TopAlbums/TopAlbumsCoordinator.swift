@@ -25,11 +25,11 @@ class TopAlbumsCoordinator {
 
 extension TopAlbumsCoordinator: Coordinator {
     func start() {
-//        let service = TopAlbumsService(network: Network())
-//        let viewModel = TopAlbumsViewModel(coordinator: self, service: service)
-//        let view = TopAlbumsViewController(viewModel: viewModel)
-//        viewModel.delegate = view
-//        navigationController.pushViewController(view, animated: true)
+        let service = TopAlbumsService(network: Network())
+        let viewModel = TopAlbumsViewModel(coordinator: self, service: service)
+        let view = TopAlbumsViewController(viewModel: viewModel)
+        viewModel.delegate = view
+        navigationController.pushViewController(view, animated: true)
     }
 }
 
