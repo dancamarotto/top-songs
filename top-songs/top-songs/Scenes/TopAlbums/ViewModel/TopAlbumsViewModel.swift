@@ -14,6 +14,7 @@ protocol TopAlbumsViewModelProtocol: AnyObject {
     
     func fetchTopAlbums()
     func getCellData(forIndex index: Int) -> TopAlbumsCellData?
+    func didSelectAlbum(withIndex index: Int)
 }
 
 struct TopAlbumModel {
@@ -76,5 +77,10 @@ extension TopAlbumsViewModel: TopAlbumsViewModelProtocol {
         checkDownloadNewData(currentIndex: index)
         
         return TopAlbumsCellData(id: album.id, imageUrl: url, title: album.name)
+    }
+    
+    func didSelectAlbum(withIndex index: Int) {
+        let id = topAlbums.albums[index].id
+        coordinator?.goToAlbumDetails(withID: id)
     }
 }

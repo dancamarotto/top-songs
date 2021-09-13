@@ -8,19 +8,16 @@
 import UIKit
 
 protocol TopAlbumsCoordinatorProtocol: AnyObject {
-//    func goToAlbumDetails(_ album: AlbumDetailsModel)
-    func goToAlbumDetails()
+    func goToAlbumDetails(withID id: String)
 }
 
 class TopAlbumsCoordinator {
-    
     var navigationController: UINavigationController
     var childCoordinators = [Coordinator]()
     
     init(navigationController: UINavigationController) {
         self.navigationController = navigationController
     }
-    
 }
 
 extension TopAlbumsCoordinator: Coordinator {
@@ -34,7 +31,9 @@ extension TopAlbumsCoordinator: Coordinator {
 }
 
 extension TopAlbumsCoordinator: TopAlbumsCoordinatorProtocol {
-    func goToAlbumDetails() {
-        // TODO: - Not implemented yet
+    func goToAlbumDetails(withID id: String) {
+        let coordinator = AlbumDetailsCoordinator(navigationController: navigationController, albumID: id)
+        childCoordinators.append(coordinator)
+        coordinator.start()
     }
 }

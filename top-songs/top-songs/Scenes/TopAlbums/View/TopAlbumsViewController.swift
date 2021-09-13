@@ -58,6 +58,6 @@ extension TopAlbumsViewController: TopAlbumsViewDelegate {
     }
     
     func didSelectAlbum(atIndex index: Int) {
-        // TODO: - Not implemented yet
+        viewModel.didSelectAlbum(withIndex: index)
     }
 }
