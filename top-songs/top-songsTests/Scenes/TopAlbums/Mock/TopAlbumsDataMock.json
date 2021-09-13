@@ -1,0 +1,323 @@
+{
+    "albums": {
+        "album": [
+            {
+                "name": "My Beautiful Dark Twisted Fantasy",
+                "mbid": "cd7d8c81-d519-4149-8cd0-ade722ad19b9",
+                "url": "https://www.last.fm/music/Kanye+West",
+                "artist": {
+                    "name": "Kanye West",
+                    "mbid": "164f0d73-1234-4e2c-8743-d77bf2191051",
+                    "url": "https://www.last.fm/music/Kanye+West"
+                },
+                "image": [
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/34s/8f42d9835690309e75ed103361107177.png",
+                        "size": "small"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/64s/8f42d9835690309e75ed103361107177.png",
+                        "size": "medium"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/174s/8f42d9835690309e75ed103361107177.png",
+                        "size": "large"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/8f42d9835690309e75ed103361107177.png",
+                        "size": "extralarge"
+                    }
+                ],
+                "@attr": {
+                    "rank": "1"
+                }
+            },
+            {
+                "name": "Graduation",
+                "mbid": "06a81817-093d-40f0-aef2-90673fa550ae",
+                "url": "https://www.last.fm/music/Kanye+West",
+                "artist": {
+                    "name": "Kanye West",
+                    "mbid": "164f0d73-1234-4e2c-8743-d77bf2191051",
+                    "url": "https://www.last.fm/music/Kanye+West"
+                },
+                "image": [
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/34s/addee1d378532efe8699f28bc2913fb7.png",
+                        "size": "small"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/64s/addee1d378532efe8699f28bc2913fb7.png",
+                        "size": "medium"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/174s/addee1d378532efe8699f28bc2913fb7.png",
+                        "size": "large"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/addee1d378532efe8699f28bc2913fb7.png",
+                        "size": "extralarge"
+                    }
+                ],
+                "@attr": {
+                    "rank": "2"
+                }
+            },
+            {
+                "name": "Madvillainy",
+                "mbid": "a63ffa0d-d6f0-4941-9659-8e199ca14a60",
+                "url": "https://www.last.fm/music/Madvillain",
+                "artist": {
+                    "name": "Madvillain",
+                    "mbid": "4e024037-14b7-4aea-99ad-c6ace63b9620",
+                    "url": "https://www.last.fm/music/Madvillain"
+                },
+                "image": [
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2081b8ad6ae8d40db032d0380cb9d2bc.png",
+                        "size": "small"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2081b8ad6ae8d40db032d0380cb9d2bc.png",
+                        "size": "medium"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2081b8ad6ae8d40db032d0380cb9d2bc.png",
+                        "size": "large"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2081b8ad6ae8d40db032d0380cb9d2bc.png",
+                        "size": "extralarge"
+                    }
+                ],
+                "@attr": {
+                    "rank": "3"
+                }
+            },
+            {
+                "name": "Late Registration",
+                "mbid": "49175ba0-330f-3a95-8156-72f4dcd4d656",
+                "url": "https://www.last.fm/music/Kanye+West",
+                "artist": {
+                    "name": "Kanye West",
+                    "mbid": "164f0d73-1234-4e2c-8743-d77bf2191051",
+                    "url": "https://www.last.fm/music/Kanye+West"
+                },
+                "image": [
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/34s/9c0e7886d750a519c9ec63c30434b483.png",
+                        "size": "small"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/64s/9c0e7886d750a519c9ec63c30434b483.png",
+                        "size": "medium"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/174s/9c0e7886d750a519c9ec63c30434b483.png",
+                        "size": "large"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/9c0e7886d750a519c9ec63c30434b483.png",
+                        "size": "extralarge"
+                    }
+                ],
+                "@attr": {
+                    "rank": "4"
+                }
+            },
+            {
+                "name": "Legends Never Die",
+                "mbid": "",
+                "url": "https://www.last.fm/music/Juice+WRLD",
+                "artist": {
+                    "name": "Juice WRLD",
+                    "mbid": "",
+                    "url": "https://www.last.fm/music/Juice+WRLD"
+                },
+                "image": [
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/34s/a62dcb0de08359723c940db46c034e71.png",
+                        "size": "small"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/64s/a62dcb0de08359723c940db46c034e71.png",
+                        "size": "medium"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/174s/a62dcb0de08359723c940db46c034e71.png",
+                        "size": "large"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/a62dcb0de08359723c940db46c034e71.png",
+                        "size": "extralarge"
+                    }
+                ],
+                "@attr": {
+                    "rank": "5"
+                }
+            },
+            {
+                "name": "808s & Heartbreak",
+                "mbid": "af8fdbd3-dc27-469d-89bf-9167514b3f5e",
+                "url": "https://www.last.fm/music/Kanye+West",
+                "artist": {
+                    "name": "Kanye West",
+                    "mbid": "164f0d73-1234-4e2c-8743-d77bf2191051",
+                    "url": "https://www.last.fm/music/Kanye+West"
+                },
+                "image": [
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/34s/ff6b285106a76e5adcb325412149135b.png",
+                        "size": "small"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/64s/ff6b285106a76e5adcb325412149135b.png",
+                        "size": "medium"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/174s/ff6b285106a76e5adcb325412149135b.png",
+                        "size": "large"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/ff6b285106a76e5adcb325412149135b.png",
+                        "size": "extralarge"
+                    }
+                ],
+                "@attr": {
+                    "rank": "6"
+                }
+            },
+            {
+                "name": "The College Dropout",
+                "mbid": "b0f5a6ab-ebad-43d7-b880-c5a6d6a3e79d",
+                "url": "https://www.last.fm/music/Kanye+West",
+                "artist": {
+                    "name": "Kanye West",
+                    "mbid": "164f0d73-1234-4e2c-8743-d77bf2191051",
+                    "url": "https://www.last.fm/music/Kanye+West"
+                },
+                "image": [
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/34s/614b04dc32dd4c29ccfce97d94e04323.png",
+                        "size": "small"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/64s/614b04dc32dd4c29ccfce97d94e04323.png",
+                        "size": "medium"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/174s/614b04dc32dd4c29ccfce97d94e04323.png",
+                        "size": "large"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/614b04dc32dd4c29ccfce97d94e04323.png",
+                        "size": "extralarge"
+                    }
+                ],
+                "@attr": {
+                    "rank": "7"
+                }
+            },
+            {
+                "name": "More Life",
+                "mbid": "",
+                "url": "https://www.last.fm/music/Drake",
+                "artist": {
+                    "name": "Drake",
+                    "mbid": "b49b81cc-d5b7-4bdd-aadb-385df8de69a6",
+                    "url": "https://www.last.fm/music/Drake"
+                },
+                "image": [
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/34s/434a922ecca5474f1f9d6bbcc3a1050c.png",
+                        "size": "small"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/64s/434a922ecca5474f1f9d6bbcc3a1050c.png",
+                        "size": "medium"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/174s/434a922ecca5474f1f9d6bbcc3a1050c.png",
+                        "size": "large"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/434a922ecca5474f1f9d6bbcc3a1050c.png",
+                        "size": "extralarge"
+                    }
+                ],
+                "@attr": {
+                    "rank": "8"
+                }
+            },
+            {
+                "name": "Man on the Moon: The End of Day",
+                "mbid": "e44d998a-0b74-4bbf-b0b1-f8cb5541169d",
+                "url": "https://www.last.fm/music/Kid+Cudi",
+                "artist": {
+                    "name": "Kid Cudi",
+                    "mbid": "e0e1db18-f7ba-4dee-95ff-7ae8cf545460",
+                    "url": "https://www.last.fm/music/Kid+Cudi"
+                },
+                "image": [
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/34s/8ca0fd6e84a14317a7d21eaebc81320a.png",
+                        "size": "small"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/64s/8ca0fd6e84a14317a7d21eaebc81320a.png",
+                        "size": "medium"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/174s/8ca0fd6e84a14317a7d21eaebc81320a.png",
+                        "size": "large"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/8ca0fd6e84a14317a7d21eaebc81320a.png",
+                        "size": "extralarge"
+                    }
+                ],
+                "@attr": {
+                    "rank": "9"
+                }
+            },
+            {
+                "name": "2001",
+                "mbid": "db4baedf-bfe1-4e04-b359-99761f1b3deb",
+                "url": "https://www.last.fm/music/Dr.+Dre",
+                "artist": {
+                    "name": "Dr. Dre",
+                    "mbid": "5f6ab597-f57a-40da-be9e-adad48708203",
+                    "url": "https://www.last.fm/music/Dr.+Dre"
+                },
+                "image": [
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/34s/995bb151f1a74f83cfd8e9df3f7d8205.png",
+                        "size": "small"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/64s/995bb151f1a74f83cfd8e9df3f7d8205.png",
+                        "size": "medium"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/174s/995bb151f1a74f83cfd8e9df3f7d8205.png",
+                        "size": "large"
+                    },
+                    {
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/995bb151f1a74f83cfd8e9df3f7d8205.png",
+                        "size": "extralarge"
+                    }
+                ],
+                "@attr": {
+                    "rank": "10"
+                }
+            }
+        ],
+        "@attr": {
+            "tag": "hip-hop",
+            "page": "1",
+            "perPage": "10",
+            "totalPages": "2",
+            "total": "20"
+        }
+    }
+}

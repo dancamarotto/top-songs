@@ -60,6 +60,7 @@ extension TopAlbumsViewModel: TopAlbumsViewModelProtocol {
             .fetchTopAlbums(page: page)
             .subscribe { [weak self] topAlbumsData in
                 guard let self = self else { return }
+                print(topAlbumsData)
                 self.delegate?.stopLoading()
                 self.page = self.page + 1
                 self.topAlbums.append(topAlbumsData)

@@ -22,6 +22,12 @@
 		8102E64826EF9D300028CE6F /* AlbumTrackData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8102E64726EF9D300028CE6F /* AlbumTrackData.swift */; };
 		8102E64A26EFACA60028CE6F /* Int+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8102E64926EFACA60028CE6F /* Int+Extension.swift */; };
 		8102E64C26EFAD840028CE6F /* StoreKitHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8102E64B26EFAD840028CE6F /* StoreKitHelper.swift */; };
+		8102E65126EFB51D0028CE6F /* TopAlbumsViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8102E65026EFB51D0028CE6F /* TopAlbumsViewModelTests.swift */; };
+		8102E65426EFB59A0028CE6F /* TopAlbumsCoordinatorMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8102E65326EFB59A0028CE6F /* TopAlbumsCoordinatorMock.swift */; };
+		8102E65726EFB6960028CE6F /* EmptyNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8102E65626EFB6960028CE6F /* EmptyNetwork.swift */; };
+		8102E65926EFB6D70028CE6F /* TopAlbumsServiceMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8102E65826EFB6D70028CE6F /* TopAlbumsServiceMock.swift */; };
+		8102E65B26EFB8BD0028CE6F /* LastFMServiceMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8102E65A26EFB8BD0028CE6F /* LastFMServiceMock.swift */; };
+		8102E65F26EFBA910028CE6F /* TopAlbumsDataMock.json in Resources */ = {isa = PBXBuildFile; fileRef = 8102E65E26EFBA910028CE6F /* TopAlbumsDataMock.json */; };
 		8141523926EE6C3B00317535 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 8141523826EE6C3B00317535 /* RxSwift */; };
 		8141523C26EE6C4E00317535 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 8141523B26EE6C4E00317535 /* Kingfisher */; };
 		8141523F26EE6CF800317535 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 8141523E26EE6CF800317535 /* Alamofire */; };
@@ -37,7 +43,6 @@
 		814ABF8626EE5BD600E5586F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814ABF8526EE5BD600E5586F /* AppDelegate.swift */; };
 		814ABF8F26EE5BD800E5586F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 814ABF8E26EE5BD800E5586F /* Assets.xcassets */; };
 		814ABF9226EE5BD800E5586F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 814ABF9026EE5BD800E5586F /* LaunchScreen.storyboard */; };
-		814ABF9D26EE5BD800E5586F /* top_songsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814ABF9C26EE5BD800E5586F /* top_songsTests.swift */; };
 		814ABFB826EE5C5C00E5586F /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814ABFB726EE5C5C00E5586F /* AppCoordinator.swift */; };
 		814ABFBB26EE5C7E00E5586F /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814ABFBA26EE5C7E00E5586F /* Coordinator.swift */; };
 		814ABFBD26EE5C9000E5586F /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814ABFBC26EE5C9000E5586F /* MainCoordinator.swift */; };
@@ -78,6 +83,12 @@
 		8102E64726EF9D300028CE6F /* AlbumTrackData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumTrackData.swift; sourceTree = "<group>"; };
 		8102E64926EFACA60028CE6F /* Int+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+Extension.swift"; sourceTree = "<group>"; };
 		8102E64B26EFAD840028CE6F /* StoreKitHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreKitHelper.swift; sourceTree = "<group>"; };
+		8102E65026EFB51D0028CE6F /* TopAlbumsViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopAlbumsViewModelTests.swift; sourceTree = "<group>"; };
+		8102E65326EFB59A0028CE6F /* TopAlbumsCoordinatorMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopAlbumsCoordinatorMock.swift; sourceTree = "<group>"; };
+		8102E65626EFB6960028CE6F /* EmptyNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyNetwork.swift; sourceTree = "<group>"; };
+		8102E65826EFB6D70028CE6F /* TopAlbumsServiceMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopAlbumsServiceMock.swift; sourceTree = "<group>"; };
+		8102E65A26EFB8BD0028CE6F /* LastFMServiceMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastFMServiceMock.swift; sourceTree = "<group>"; };
+		8102E65E26EFBA910028CE6F /* TopAlbumsDataMock.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = TopAlbumsDataMock.json; sourceTree = "<group>"; };
 		8141524026EE6D1700317535 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
 		8141524626EE6D9400317535 /* UIViewController+Loading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Loading.swift"; sourceTree = "<group>"; };
 		8141524A26EE997500317535 /* RequestParamBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestParamBuilder.swift; sourceTree = "<group>"; };
@@ -92,7 +103,6 @@
 		814ABF9126EE5BD800E5586F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		814ABF9326EE5BD800E5586F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		814ABF9826EE5BD800E5586F /* top-songsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "top-songsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		814ABF9C26EE5BD800E5586F /* top_songsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = top_songsTests.swift; sourceTree = "<group>"; };
 		814ABF9E26EE5BD800E5586F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		814ABFB726EE5C5C00E5586F /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
 		814ABFBA26EE5C7E00E5586F /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
@@ -196,6 +206,50 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		8102E64D26EFB4EE0028CE6F /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				8102E64E26EFB4FC0028CE6F /* TopAlbums */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		8102E64E26EFB4FC0028CE6F /* TopAlbums */ = {
+			isa = PBXGroup;
+			children = (
+				8102E65226EFB5860028CE6F /* Mock */,
+				8102E64F26EFB5060028CE6F /* ViewModel */,
+			);
+			path = TopAlbums;
+			sourceTree = "<group>";
+		};
+		8102E64F26EFB5060028CE6F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				8102E65026EFB51D0028CE6F /* TopAlbumsViewModelTests.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		8102E65226EFB5860028CE6F /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+				8102E65326EFB59A0028CE6F /* TopAlbumsCoordinatorMock.swift */,
+				8102E65826EFB6D70028CE6F /* TopAlbumsServiceMock.swift */,
+				8102E65E26EFBA910028CE6F /* TopAlbumsDataMock.json */,
+			);
+			path = Mock;
+			sourceTree = "<group>";
+		};
+		8102E65526EFB6820028CE6F /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				8102E65626EFB6960028CE6F /* EmptyNetwork.swift */,
+				8102E65A26EFB8BD0028CE6F /* LastFMServiceMock.swift */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
 		8141524526EE6D7000317535 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
@@ -267,8 +321,9 @@
 		814ABF9B26EE5BD800E5586F /* top-songsTests */ = {
 			isa = PBXGroup;
 			children = (
-				814ABF9C26EE5BD800E5586F /* top_songsTests.swift */,
 				814ABF9E26EE5BD800E5586F /* Info.plist */,
+				8102E65526EFB6820028CE6F /* Mocks */,
+				8102E64D26EFB4EE0028CE6F /* Scenes */,
 			);
 			path = "top-songsTests";
 			sourceTree = "<group>";
@@ -480,6 +535,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8102E65F26EFBA910028CE6F /* TopAlbumsDataMock.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -533,7 +589,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				814ABF9D26EE5BD800E5586F /* top_songsTests.swift in Sources */,
+				8102E65B26EFB8BD0028CE6F /* LastFMServiceMock.swift in Sources */,
+				8102E65126EFB51D0028CE6F /* TopAlbumsViewModelTests.swift in Sources */,
+				8102E65926EFB6D70028CE6F /* TopAlbumsServiceMock.swift in Sources */,
+				8102E65726EFB6960028CE6F /* EmptyNetwork.swift in Sources */,
+				8102E65426EFB59A0028CE6F /* TopAlbumsCoordinatorMock.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
