@@ -1,2 +1,5 @@
 # top-songs
- Top hip-hop songs from Last FM api.
+ Top hip-hop albums from Last FM api.
+ 
+ ----
+ *top-songs? I think it should be top-albums.*
