@@ -9,8 +9,8 @@ import UIKit
 
 /// Since we use no storyboards in this application, the entry point is defined here.
 class AppCoordinator: MainCoordinator {
-    var window: UIWindow
-    var childCoordinator = [Coordinator]()
+    internal var window: UIWindow
+    internal var childCoordinator = [Coordinator]()
     
     init(window: UIWindow) {
         self.window = window

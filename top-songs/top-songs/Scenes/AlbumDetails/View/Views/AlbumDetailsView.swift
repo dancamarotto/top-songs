@@ -12,7 +12,7 @@ class AlbumDetailsView: UIView {
     private let fontRegular = "Avenir Next"
     private let fontBold = "Avenir Next Bold"
     
-    lazy var imageView: UIImageView = {
+    private lazy var imageView: UIImageView = {
         let imageView = UIImageView()
         imageView.clipsToBounds = true
         imageView.contentMode = .scaleAspectFill
@@ -20,7 +20,7 @@ class AlbumDetailsView: UIView {
         return imageView
     }()
     
-    lazy var albumNameLabel: UILabel = {
+    private lazy var albumNameLabel: UILabel = {
         let label = UILabel()
         label.textAlignment = .center
         label.font = UIFont(name: fontRegular, size: 26)
@@ -30,7 +30,7 @@ class AlbumDetailsView: UIView {
         return label
     }()
     
-    lazy var artistLabel: UILabel = {
+    private lazy var artistLabel: UILabel = {
         let label = UILabel()
         label.textAlignment = .center
         label.font = UIFont(name: fontBold, size: 20)
@@ -38,21 +38,21 @@ class AlbumDetailsView: UIView {
         return label
     }()
     
-    lazy var tracksCountLabel: UILabel = {
+    private lazy var tracksCountLabel: UILabel = {
         let label = UILabel()
         label.font = UIFont(name: fontRegular, size: 14)
         label.translatesAutoresizingMaskIntoConstraints = false
         return label
     }()
     
-    lazy var publishDateLabel: UILabel = {
+    private lazy var publishDateLabel: UILabel = {
         let label = UILabel()
         label.font = UIFont(name: fontRegular, size: 14)
         label.translatesAutoresizingMaskIntoConstraints = false
         return label
     }()
     
-    lazy var listenersLabel: UILabel = {
+    private lazy var listenersLabel: UILabel = {
         let label = UILabel()
         label.font = UIFont(name: fontRegular, size: 14)
         label.translatesAutoresizingMaskIntoConstraints = false

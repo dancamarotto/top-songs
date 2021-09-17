@@ -17,8 +17,8 @@ protocol AlbumDetailsServiceProtocol {
 
 class AlbumDetailsService {
     
-    let network: Networking
-    let lastFMService: LastFMServiceProtocol
+    internal let network: Networking
+    internal let lastFMService: LastFMServiceProtocol
     
     init(network: Networking = Network(),
          lastFMService: LastFMServiceProtocol = LastFMService()) {

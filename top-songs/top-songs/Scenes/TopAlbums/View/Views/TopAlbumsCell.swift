@@ -13,19 +13,25 @@ class TopAlbumsCell: UICollectionViewCell {
     static let reuseIdentifier = "topAlbumsCell"
     private var data: TopAlbumsCellData?
     
-    lazy var imageView: UIImageView = {
+    private lazy var imageView: UIImageView = {
         let imageView = UIImageView()
         imageView.clipsToBounds = true
         imageView.translatesAutoresizingMaskIntoConstraints = false
         return imageView
     }()
     
-    lazy var label: UILabel = {
+    private lazy var label: UILabel = {
         let label = UILabel()
         label.textAlignment = .center
         label.translatesAutoresizingMaskIntoConstraints = false
         return label
     }()
+    
+    override func prepareForReuse() {
+        super.prepareForReuse()
+        self.imageView.image = nil
+        self.label.text = nil
+    }
     
     func setupCell(with data: TopAlbumsCellData?) {
         self.data = data

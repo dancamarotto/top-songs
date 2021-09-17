@@ -8,9 +8,9 @@
 import UIKit
 
 class AlbumDetailsCoordinator {
-    var navigationController: UINavigationController
-    var childCoordinators = [Coordinator]()
-    let id: String
+    internal var navigationController: UINavigationController
+    internal var childCoordinators = [Coordinator]()
+    private let id: String
     
     init(navigationController: UINavigationController, albumID: String) {
         self.navigationController = navigationController

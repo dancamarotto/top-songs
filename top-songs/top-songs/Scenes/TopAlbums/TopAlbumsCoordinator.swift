@@ -12,8 +12,8 @@ protocol TopAlbumsCoordinatorProtocol: AnyObject {
 }
 
 class TopAlbumsCoordinator {
-    var navigationController: UINavigationController
-    var childCoordinators = [Coordinator]()
+    internal var navigationController: UINavigationController
+    internal var childCoordinators = [Coordinator]()
     
     init(navigationController: UINavigationController) {
         self.navigationController = navigationController
