@@ -19,9 +19,6 @@ protocol ViewCoded {
     
     /// Used to add any additional information.
     func setupViews()
-    
-    /// Already has a default implementation, just need to be called once in your `UIView` so all functions above are called.
-    func setupViewCode()
 }
 
 extension ViewCoded {

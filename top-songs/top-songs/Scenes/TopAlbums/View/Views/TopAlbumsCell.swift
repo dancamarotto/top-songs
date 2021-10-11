@@ -11,7 +11,7 @@ import Kingfisher
 class TopAlbumsCell: UICollectionViewCell {
     
     static let reuseIdentifier = "topAlbumsCell"
-    private var data: TopAlbumsCellData?
+    private var data: TopAlbumsCellModel?
     
     private lazy var imageView: UIImageView = {
         let imageView = UIImageView()
@@ -33,7 +33,7 @@ class TopAlbumsCell: UICollectionViewCell {
         self.label.text = nil
     }
     
-    func setupCell(with data: TopAlbumsCellData?) {
+    func setupCell(with data: TopAlbumsCellModel?) {
         self.data = data
         setupViewCode()
     }

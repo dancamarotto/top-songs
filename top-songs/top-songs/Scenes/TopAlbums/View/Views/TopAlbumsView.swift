@@ -9,7 +9,7 @@ import UIKit
 
 protocol TopAlbumsViewDelegate: AnyObject {
     func getCollectionSize() -> Int
-    func getCellData(forIndex index: Int) -> TopAlbumsCellData?
+    func getCellData(forIndex index: Int) -> TopAlbumsCellModel?
     func didSelectAlbum(atIndex index: Int)
 }
 

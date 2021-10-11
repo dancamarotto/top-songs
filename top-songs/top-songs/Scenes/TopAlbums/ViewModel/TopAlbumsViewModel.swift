@@ -13,7 +13,7 @@ protocol TopAlbumsViewModelProtocol: AnyObject {
     var topAlbumsListSize: Int { get }
     
     func fetchTopAlbums()
-    func getCellData(forIndex index: Int) -> TopAlbumsCellData?
+    func getCellData(forIndex index: Int) -> TopAlbumsCellModel?
     func didSelectAlbum(withIndex index: Int)
 }
 
@@ -71,13 +71,13 @@ extension TopAlbumsViewModel: TopAlbumsViewModelProtocol {
             }.disposed(by: disposeBag)
     }
     
-    func getCellData(forIndex index: Int) -> TopAlbumsCellData? {
+    func getCellData(forIndex index: Int) -> TopAlbumsCellModel? {
         let album = topAlbums.albums[index]
         let url = URL(string: album.image)
         
         checkDownloadNewData(currentIndex: index)
         
-        return TopAlbumsCellData(id: album.id, imageUrl: url, title: album.name)
+        return TopAlbumsCellModel(id: album.id, imageUrl: url, title: album.name)
     }
     
     func didSelectAlbum(withIndex index: Int) {

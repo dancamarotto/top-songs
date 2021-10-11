@@ -53,7 +53,7 @@ extension TopAlbumsViewController: TopAlbumsViewDelegate {
         viewModel.topAlbumsListSize
     }
     
-    func getCellData(forIndex index: Int) -> TopAlbumsCellData? {
+    func getCellData(forIndex index: Int) -> TopAlbumsCellModel? {
         viewModel.getCellData(forIndex: index)
     }
     

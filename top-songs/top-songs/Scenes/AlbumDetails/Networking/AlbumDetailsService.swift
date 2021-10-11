@@ -41,7 +41,6 @@ extension AlbumDetailsService: AlbumDetailsServiceProtocol {
     func fetchAlbumDetails(id: String) -> Single<AlbumDetailsData> {
         network
             .request(url: lastFMService.baseUrl,
-                     parameters: defaultParams(id: id),
-                     returnType: AlbumDetailsData.self)
+                     parameters: defaultParams(id: id))
     }
 }

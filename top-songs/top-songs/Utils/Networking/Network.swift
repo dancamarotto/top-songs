@@ -13,8 +13,7 @@ class Network: Networking {
     
     func request<T: Decodable>(url: String,
                                method: HTTPMethod = .get,
-                               parameters: [String : Any]? = nil,
-                               returnType: T.Type) -> Single<T> {
+                               parameters: [String : Any]? = nil) -> Single<T> {
         return Single.create { single in
             
             let request = AF

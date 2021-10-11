@@ -11,16 +11,14 @@ import RxSwift
 protocol Networking {
     func request<T: Decodable>(url: String,
                                method: HTTPMethod,
-                               parameters: [String : Any]?,
-                               returnType: T.Type) -> Single<T>
+                               parameters: [String : Any]?) -> Single<T>
 }
 
 extension Networking {
     func request<T: Decodable>(url: String,
                                method: HTTPMethod = .get,
-                               parameters: [String : Any]? = nil,
-                               returnType: T.Type) -> Single<T> {
+                               parameters: [String : Any]? = nil) -> Single<T> {
         request(url: url, method: method,
-                parameters: parameters, returnType: returnType)
+                parameters: parameters)
     }
 }

@@ -46,7 +46,6 @@ extension TopAlbumsService: TopAlbumsServiceProtocol {
     func fetchTopAlbums(page: Int) -> Single<TopAlbumsData> {
         network
             .request(url: lastFMService.baseUrl,
-                     parameters: defaultParams(page: page),
-                     returnType: TopAlbumsData.self)
+                     parameters: defaultParams(page: page))
     }
 }

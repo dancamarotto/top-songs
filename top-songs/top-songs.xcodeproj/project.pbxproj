@@ -52,7 +52,7 @@
 		814ABFC926EE5FBF00E5586F /* TopAlbumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814ABFC826EE5FBF00E5586F /* TopAlbumsView.swift */; };
 		814ABFCC26EE603A00E5586F /* TopAlbumsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814ABFCB26EE603A00E5586F /* TopAlbumsViewModel.swift */; };
 		814ABFCE26EE618D00E5586F /* TopAlbumsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814ABFCD26EE618D00E5586F /* TopAlbumsCell.swift */; };
-		814ABFD126EE62D800E5586F /* TopAlbumsCellData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814ABFD026EE62D800E5586F /* TopAlbumsCellData.swift */; };
+		814ABFD126EE62D800E5586F /* TopAlbumsCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814ABFD026EE62D800E5586F /* TopAlbumsCellModel.swift */; };
 		814ABFD426EE650400E5586F /* TopAlbumsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814ABFD326EE650400E5586F /* TopAlbumsService.swift */; };
 		814ABFD726EE653A00E5586F /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814ABFD626EE653A00E5586F /* Networking.swift */; };
 /* End PBXBuildFile section */
@@ -113,7 +113,7 @@
 		814ABFC826EE5FBF00E5586F /* TopAlbumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopAlbumsView.swift; sourceTree = "<group>"; };
 		814ABFCB26EE603A00E5586F /* TopAlbumsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopAlbumsViewModel.swift; sourceTree = "<group>"; };
 		814ABFCD26EE618D00E5586F /* TopAlbumsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopAlbumsCell.swift; sourceTree = "<group>"; };
-		814ABFD026EE62D800E5586F /* TopAlbumsCellData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopAlbumsCellData.swift; sourceTree = "<group>"; };
+		814ABFD026EE62D800E5586F /* TopAlbumsCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopAlbumsCellModel.swift; sourceTree = "<group>"; };
 		814ABFD326EE650400E5586F /* TopAlbumsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopAlbumsService.swift; sourceTree = "<group>"; };
 		814ABFD626EE653A00E5586F /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -399,7 +399,7 @@
 			isa = PBXGroup;
 			children = (
 				8141525526EEBC6E00317535 /* TopAlbumsModel.swift */,
-				814ABFD026EE62D800E5586F /* TopAlbumsCellData.swift */,
+				814ABFD026EE62D800E5586F /* TopAlbumsCellModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -575,7 +575,7 @@
 				814ABFCC26EE603A00E5586F /* TopAlbumsViewModel.swift in Sources */,
 				814ABFC626EE5F8B00E5586F /* TopAlbumsViewController.swift in Sources */,
 				8102E63A26EF8F590028CE6F /* AlbumDetailsService.swift in Sources */,
-				814ABFD126EE62D800E5586F /* TopAlbumsCellData.swift in Sources */,
+				814ABFD126EE62D800E5586F /* TopAlbumsCellModel.swift in Sources */,
 				8102E62826EF81370028CE6F /* TopAlbumAttributesData.swift in Sources */,
 				8141525226EEAE4900317535 /* AlbumData.swift in Sources */,
 				8141524126EE6D1700317535 /* Network.swift in Sources */,
